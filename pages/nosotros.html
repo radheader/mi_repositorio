@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <!--FontAwesome-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!--Fav Icon-->
+    <link rel="shortcut icon" href="../img/sulpayki_icon.jpg" type="" />
+    <title>Sulpayki</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="../index.html"><img class="logo" src="../img/sulpayki.jpg" /></a>
+      <nav>
+        <ul class="nav__items">
+          <li><a href="../index.html">Inicio</a></li>
+          <li><a href="Quienessomos.html">Quienes somos</a></li>
+          <li><a href="productos.html">Productos</a></li>
+          <li><a href="nosotros.html">Nosotros</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <!-- Aqui comienza el formulario -->
+    <div>
+      <form action="index.html" method="post">
+      
+        <h1>Registro</h1>
+        
+        <fieldset>
+          <legend><span class="number">1</span>Información Personal</legend>
+          <label for="name">Nombre:</label>
+          <input type="text" id="name" name="user_name">
+          
+          <label for="mail">Email:</label>
+          <input type="email" id="mail" name="user_email">
+          
+          <label for="password">Contraseña:</label>
+          <input type="password" id="password" name="user_password">
+          
+          <label>Sexo:</label>
+          <input type="radio" id="hombre" value="hombre" name="hombre"><label for="hombre" class="light">Hombre</label><br>
+          <input type="radio" id="mujer" value="mujer" name="mujer"><label for="mujer" class="light">Mujer</label>
+        </fieldset>
+        
+        <fieldset>
+          <legend><span class="number">2</span>Tu Opinión</legend>
+          <label for="Coment">Comentarios:</label>
+          <textarea id="bio" name="user_bio"></textarea>
+        </fieldset>
+
+        </fieldset>
+        <button type="submit">Registrarse</button>
+      </form>
+    </div>
+
+    <footer class="footer">
+      <div>
+        <h3 class="tituloSeccion">Buscanos en nuestras redes</h3>
+      </div>
+      <div class="footer__social">
+        <a
+          class="img-redes"
+          href="https://www.facebook.com/Sulpayki-105878654699361/"
+          target="blank"
+        >
+          <img src="../img/facebook.svg" alt="" />
+        </a>
+        <a
+          class="img-redes"
+          href="https://www.instagram.com/sulpayki_natural/?hl=es-la"
+          target="blank"
+        >
+          <img src="../img/instagram.svg" alt="" />
+        </a>
+      </div>
+
+      <div class="copyright">
+        <h3>@Copyright 2021 | Creado por ChrisRT</h3>
+      </div>
+    </footer>
+  </body>
+</html>
